@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#000000">
+	
+			<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:stretchColumns="*"
+			android:shrinkColumns="0">		
+			
+			
+		   <TableRow><TextView android:maxHeight="8sp"/></TableRow>	
+			<TableRow
+				android:id="@+id/info_follow_me"
+				android:clickable="true">
+				<TableLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:stretchColumns="*"
+					android:shrinkColumns="*">
+				<TableRow>
+			   	<TextView
+			   		android:text="Follow Me"
+			   		android:textSize="22sp"
+			   		android:textColor="#ffffff"
+			   		android:paddingLeft="5sp"/>
+			   	</TableRow>
+
+			   	<TextView
+			   		android:text="http://twitter.com/pocketools"
+			   		android:textColor="#c0c0c0"
+			   		android:textSize="16sp"
+			   		android:paddingLeft="15sp"/>
+
+		  		</TableLayout>			   				  
+		  	</TableRow>		  	
+		  	<TableRow><TextView android:maxHeight="8sp"/></TableRow>		  	
+			  	<TextView 
+				   		android:maxHeight="1sp"
+				   		android:background="#ffffff"/>
+		    <TableRow><TextView android:maxHeight="8sp"/></TableRow>  
+		    <TableRow><TextView android:maxHeight="8sp"/></TableRow>
+			<TableRow
+				android:clickable="true"
+				android:id="@+id/info_send_feedbck">
+	
+				<TableLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:stretchColumns="*"
+					android:shrinkColumns="*">
+				<TableRow>
+			   	<TextView
+			   		android:text="Send Feedback"
+			   		android:textSize="22sp"
+			   		android:textColor="#ffffff"
+			   		android:paddingLeft="5sp"/>
+			   	</TableRow>
+
+			   	<TextView
+			   		android:text="Email don@pocketools.com"
+			   		android:textColor="#c0c0c0"
+			   		android:textSize="16sp"
+			   		android:paddingLeft="15sp"/>
+
+		  		</TableLayout>			   
+		  	</TableRow>		  	
+		  	<TableRow><TextView android:maxHeight="8sp"/></TableRow>
+		  	<TextView 
+			   		android:maxHeight="1sp"
+			   		android:background="#ffffff"/>
+
+		   <TableRow><TextView android:maxHeight="8sp"/></TableRow>
+		   
+		   
+		   
+		    <TableRow><TextView android:maxHeight="8sp"/></TableRow>
+			<TableRow
+				android:clickable="true"
+				android:id="@+id/info_other_tools">
+	
+				<TableLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:stretchColumns="*"
+					android:shrinkColumns="*">
+				<TableRow>
+			   	<TextView
+			   		android:text="Other Tools"
+			   		android:textSize="22sp"
+			   		android:textColor="#ffffff"
+			   		android:paddingLeft="5sp"/>
+			   	</TableRow>
+
+			   	<TextView
+			   		android:text="Other Android tools from Pocketools.com"
+			   		android:textColor="#c0c0c0"
+			   		android:textSize="16sp"
+			   		android:paddingLeft="15sp"/>
+
+		  		</TableLayout>
+
+		  	</TableRow>
+		  	
+		  	<TableRow><TextView android:maxHeight="8sp"/></TableRow>
+		  	
+		  	<TextView 
+			   		android:maxHeight="1sp"
+			   		android:background="#ffffff"/>
+			   		
+		  	<TableRow><TextView android:maxHeight="8sp"/></TableRow>
+			<TableRow
+				android:clickable="true"
+				android:id="@+id/info_faq">
+	
+				<TableLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:stretchColumns="*"
+					android:shrinkColumns="*">
+				<TableRow>
+			   	<TextView
+			   		android:text="FAQ"
+			   		android:textSize="22sp"
+			   		android:textColor="#ffffff"
+			   		android:paddingLeft="5sp"/>
+			   	</TableRow>
+
+			   	<TextView
+			   		android:text="Top Tips for Stock Alert"
+			   		android:textColor="#c0c0c0"
+			   		android:textSize="16sp"
+			   		android:paddingLeft="15sp"/>
+
+		  		</TableLayout>
+
+		  	</TableRow>
+		  	
+		  	<TableRow><TextView android:maxHeight="8sp"/></TableRow>
+		  	
+
+			
+		  	<TextView 
+			   		android:maxHeight="1sp"
+			   		android:background="#ffffff"/>
+		   
+		   <TableRow>
+    	</TableRow>   	
+		</TableLayout>
+
+ 
+    
+
+</LinearLayout>

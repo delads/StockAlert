@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		 android:orientation="vertical">
+		
+		
+		<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/top_button_layout"
+			android:background="#000000"
+			android:layout_alignParentBottom="true">
+
+   	   			<Button android:text="Continue"
+				android:id="@+id/faq_button_continue"/>
+
+	
+		</TableLayout>
+
+<ScrollView 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000"
+		android:layout_above="@id/top_button_layout">	
+		
+			<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:stretchColumns="0"
+			android:shrinkColumns="1"
+			android:padding="10sp">		
+			
+			<TableRow>
+			<TextView 
+				android:text="Welcome to the LATEST RELEASE (2.1.11) of Stock Alert. Below are the Top Tips to make the most out of Stock Alert"
+				android:layout_span="2"
+				android:textColor="#ffffff"
+				android:textSize="16sp"/>
+			</TableRow>
+			<TextView/>
+			<TextView/>
+			
+			<TextView android:textColor="#ffffff" android:textSize="14sp" android:paddingLeft="20sp" android:text="New in 2.1.11" />
+			<TextView android:textColor="#ffffff" android:textSize="14sp" android:paddingLeft="20sp" android:text="- Frozen Widgets fixed" />
+			
+			<TextView/>
+			<TextView/>
+			
+			
+			<TextView android:textColor="#ffffff" android:textSize="14sp" android:paddingLeft="10sp" android:paddingBottom="5sp" android:text="New in 2.1" />
+			<TextView android:textColor="#ffffff" android:textSize="14sp" android:paddingLeft="20sp" android:text="- Commodities Tab" />
+			<TextView android:textColor="#ffffff" android:textSize="14sp" android:paddingLeft="20sp" android:text="- Multiple Widgets" />
+			<TextView android:textColor="#ffffff" android:textSize="14sp" android:paddingLeft="20sp" android:text="- Move 2 SD card for Froyo" />
+			<TextView android:textColor="#ffffff" android:textSize="14sp" android:paddingLeft="20sp" android:text="- Set Default Entry Page" />
+			<TextView android:textColor="#ffffff" android:textSize="14sp" android:paddingLeft="20sp" android:text="- Set Default Graph Durations" />
+			<TextView android:textColor="#ffffff" android:textSize="14sp" android:paddingLeft="20sp" android:text="- Various Bug Fixes" />
+			<TextView android:textColor="#ffffff" android:textSize="14sp" android:paddingLeft="20sp" android:text="- Ad Supported" />
+			
+			<TextView/>
+			<TextView/>
+			
+			<TextView android:textColor="#ffffff" android:textSize="14sp" android:paddingLeft="20sp" android:text="Previous release Includes .... " />
+			
+			<TextView/>
+			
+			
+			<TableRow>
+				<TableLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_span="2">
+					
+				<ImageView 
+					android:src="@drawable/new_menu"
+					android:scaleType="centerInside"
+					android:layout_width="wrap_content"/>
+					
+				
+				<TextView/>
+				  
+				<TextView
+					android:text="New Menu Layout. Simply slide the top menu from left to right to get quick access to the new functionality, including Markets and Currencies."
+					android:textColor="#ffffff"
+					android:paddingLeft="10sp"/>
+					
+					
+					<TextView android:height="25sp"/>
+				
+				</TableLayout>
+			
+			</TableRow>
+			<TextView/>
+			
+			<TableRow>
+				<ImageView 
+					android:src="@drawable/widget_example"
+					android:layout_width="wrap_content"/>
+				
+				  
+				<TextView
+					android:text="New Homepage Widget. Track your favourite stock or currency effortlessly. Long press on the homescreen of your phone to add this Widget"
+					android:textColor="#ffffff"
+					android:paddingLeft="10sp"/>
+				
+			</TableRow>
+			
+			<TextView/>
+			
+			<TableRow>
+				<ImageView 
+					android:src="@drawable/ic_mp_move"
+					android:layout_width="wrap_content"/>
+				
+				  
+				<TextView
+					android:text="Reorder your stocks by dragging the image on the left"
+					android:textColor="#ffffff"
+					android:paddingLeft="10sp"/>
+				
+			</TableRow>
+			
+			<TextView/>
+			
+			<TableRow>
+				<ImageView 
+					android:src="@drawable/delete_example"
+					android:layout_width="wrap_content"/>
+			
+				<TextView
+					android:text="Delete Stocks by doing a 'Long Press' on the stock name"
+					android:textColor="#ffffff"
+					android:paddingLeft="10sp"/>
+				
+			</TableRow>
+			
+			<TextView/>
+			
+			<TableRow>
+				<ImageView 
+					android:src="@drawable/currency_example"
+					android:layout_width="wrap_content"/>
+			
+				<TextView
+					android:text="Want an Alert when the Dollar hits 1.50 against the Euro ? Set Alerts for Currencies aswell as Stocks"
+					android:textColor="#ffffff"
+					android:paddingLeft="10sp"/>
+				
+			</TableRow>
+			
+			<TextView/>			
+			<TextView/>
+		  	</TableLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>	  
+<TableLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/list_footer_content"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="2"
+		android:shrinkColumns="1"
+		android:paddingLeft="10sp"
+		android:paddingTop="10sp"
+		android:paddingBottom="10sp"
+		android:background="@drawable/gradient_tab">
+
+	<TableRow>	
+	<TextView
+		android:text="Add Stock or Index"
+		android:layout_span="3"
+		android:textSize="22sp"
+		android:textStyle="normal"
+		android:textColor="#ffffff"/>
+	
+	<!--  
+	<ImageButton 
+			android:src="@drawable/edit"
+			android:id="@+id/edit_button_list"
+			android:layout_gravity="right"
+			android:paddingRight="10sp"
+			android:background="@null"/>
+			
+	-->
+	
+	</TableRow>
+</TableLayout>

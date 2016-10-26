@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@drawable/widget_background_3"
+        android:id="@+id/widgetRelativeLayout"
+        android:clickable="true">
+             
+         <!-- The height is set to half the height of the parent, which is 64 dip -->
+    <TextView android:id="@+id/widgetStockSymbol"
+    	android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textColor="#ffffff"
+        android:text="Loading.."
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="15sp"
+        android:maxWidth="90sp"
+        android:paddingLeft="15sp"
+        android:textSize="18sp"/>       
+   
+        <TextView android:id="@+id/widgetPrice"
+    	android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:textColor="#ffffff"
+        android:text=""
+        android:paddingRight="15sp"
+        android:paddingBottom="15sp"
+        android:layout_toRightOf="@id/widgetStockSymbol"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:textSize="18sp"/>
+  
+   <TextView android:id="@+id/widgetLastUpdatedDate"
+    	android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textColor="#ffffff"
+        android:text="loading"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/widgetStockSymbol"
+        android:paddingLeft="15sp"
+        android:textSize="12sp"/> 
+   
+        
+   <TextView android:id="@+id/widgetPriceChangeAbsolute"
+    	android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:paddingRight="15sp"
+        android:textColor="#ffffff"
+        android:text="loading"
+        android:layout_below="@id/widgetPrice"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp"/>
+   
+   
+   <TextView android:id="@+id/widgetLastUpdatedTime"
+    	android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textColor="#ffffff"
+        android:text="loading"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/widgetLastUpdatedDate"
+        android:paddingLeft="15sp"
+        android:textSize="12sp"/> 
+        
+   
+   <TextView android:id="@+id/widgetPriceChangePercentage"
+    	android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:paddingRight="15sp"
+        android:textColor="#ffffff"
+        android:text="loading"
+        android:layout_below="@id/widgetPriceChangeAbsolute"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp"/>    
+   
+
+
+</RelativeLayout>

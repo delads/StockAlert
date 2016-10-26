@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"										
+	    	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/alert_list_layout_content"
+			android:stretchColumns="*"
+			android:padding="5sp"
+			android:background="#000000">
+				<TableRow>
+				
+				<TableLayout 
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_span="4">
+						<TableRow>
+							<TextView 	
+								android:text="GOOG" 
+								android:textColor="#ffffff"
+								android:textSize="22sp"
+								android:paddingLeft="0sp"
+								android:paddingRight="10sp"
+								android:id="@+id/alert_list_symbol"/>	
+							<TextView 	
+								android:text="575.5" 
+								android:textColor="#ffffff"
+								android:textSize="22sp"
+								android:paddingLeft="10sp"
+								android:paddingRight="10sp"
+								android:height="30sp"
+								android:id="@+id/alert_list_last_trade"/>		
+						</TableRow>
+				</TableLayout>
+					
+												
+				</TableRow>
+				
+				<TableRow>
+					<TextView android:text="Above" android:textColor="#ffffff"/>
+					<EditText 
+						android:id="@+id/alert_list_high_edit_text"
+						android:hint="price" 
+						android:minWidth="100sp" 
+						android:inputType="numberDecimal"
+						android:paddingRight="5sp"/>
+					<TextView android:width="10sp"/>
+					<CheckBox 
+						android:id="@+id/alert_list_high_checkbox" 
+						android:checked="false"/>
+					<TextView 
+						android:id="@+id/alert_list_high_text"
+						android:text="Inactive" 
+						android:textColor="#ffffff"/>					
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Below" android:textColor="#ffffff"/>
+					<EditText 
+						android:id="@+id/alert_list_low_edit_text"
+						android:hint="price" 
+						android:inputType="numberDecimal" />
+					<TextView android:width="10sp"/>
+					<CheckBox
+						android:id="@+id/alert_list_low_checkbox" 
+						android:checked="false"/>
+					<TextView 
+						android:id="@+id/alert_list_low_text"
+						android:text="Inactive" 
+						android:textColor="#ffffff"/>		
+				</TableRow>
+			
+			</TableLayout>		

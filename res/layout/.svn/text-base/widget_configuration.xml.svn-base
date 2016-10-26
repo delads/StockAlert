@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:admobsdk="http://schemas.android.com/apk/res/com.pocketools.currency"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none"
+		android:background="#000000">	
+
+    
+    <TableLayout
+    	android:layout_width="wrap_content"
+		android:layout_height="fill_parent">
+
+		<TextView
+			android:text="Select Stock to track"
+			android:textColor="#ffffff"
+			android:textSize="16sp"
+			android:paddingBottom="10sp"
+			android:paddingLeft="10sp"
+			android:paddingTop="10sp"/>
+
+		<TextView
+			android:text="Widget updated at same frequency as Alerts (every 15 mins). Background service is used to update both Alerts and Widget so Phone is never woken from sleep mode"
+			android:textColor="#ffffff"
+			android:textSize="12sp"
+			android:paddingBottom="20sp"
+			android:paddingLeft="10sp"
+			android:paddingTop="10sp"/>
+
+		<TableRow android:background="#000000">
+		
+		<Spinner 
+				android:prompt="@string/currency_prompt"
+				android:layout_gravity="center_vertical"
+				android:id="@+id/graph_spinner_left"/>
+		</TableRow>
+		
+	    <Button 
+	        android:id="@+id/widget_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Configure Widget"/>
+
+    	
+    </TableLayout>
+    
+
+</LinearLayout>

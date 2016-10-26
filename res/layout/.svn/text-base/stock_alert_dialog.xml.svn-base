@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	  	android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#ffffff"
+		android:padding="5sp">
+	
+		
+	<TextView 
+		android:background="#000000" 
+		android:height="1sp"/>
+	
+	<TextView 
+		android:text="Delete" 
+		android:height="45sp" 
+		android:textSize="25sp" 
+		android:textColor="#000000"
+		android:layout_width="fill_parent"
+		android:paddingLeft="10sp"
+		android:paddingRight="100sp"
+		android:id="@+id/dialog_delete"/>
+		
+	<TextView 
+		android:background="#000000" 
+		android:height="1sp"/>
+	
+	<TextView 
+		android:text="Move Up" 
+		android:height="45sp" 
+		android:textSize="25sp" 
+		android:paddingLeft="10sp"
+		android:paddingRight="100sp"
+		android:textColor="#000000"
+		android:id="@+id/dialog_move_up"/>
+		
+	<TextView 
+		android:background="#000000" 
+		android:height="1sp"/>
+	
+	<TextView 
+		android:text="Move Down" 
+		android:height="45sp" 
+		android:textSize="25sp" 
+		android:paddingLeft="10sp"
+		android:paddingRight="100sp"
+		android:textColor="#000000"
+		android:id="@+id/dialog_move_down"/>
+		
+	<TextView 
+		android:background="#000000" 
+		android:height="1sp"/>
+
+  </TableLayout>

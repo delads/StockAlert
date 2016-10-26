@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none"
+		android:background="#000000">	
+		
+<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:stretchColumns="*"
+		android:shrinkColumns="*">
+		
+	<TextView 
+		android:text="Choose Index"
+		android:textColor="#ffffff"
+		android:paddingTop="5sp"
+		android:paddingBottom="15sp"
+		android:textSize="22sp"/>
+		
+		
+		<TableRow>					  
+			<Spinner  
+			  android:id="@+id/us_index_spinner" 
+		      android:prompt="@string/choose_index_prompt"
+		      android:layout_width="wrap_content"/>							      
+		</TableRow>
+		
+		<TableRow>					  
+			<Spinner  
+			  android:id="@+id/americas_index_spinner" 
+		      android:prompt="@string/choose_index_prompt"
+		      android:layout_width="wrap_content"/>							      
+		</TableRow>
+		
+		<TableRow>					  
+			<Spinner  
+			  android:id="@+id/asia_index_spinner" 
+		      android:prompt="@string/choose_index_prompt"
+		      android:layout_width="wrap_content"/>							      
+		</TableRow>
+		
+		<TableRow>					  
+			<Spinner  
+			  android:id="@+id/europe_index_spinner" 
+		      android:prompt="@string/choose_index_prompt"
+		      android:layout_width="wrap_content"/>							      
+		</TableRow>
+		
+		<TableRow>					  
+			<Spinner  
+			  android:id="@+id/africa_index_spinner" 
+		      android:prompt="@string/choose_index_prompt"
+		      android:layout_width="wrap_content"/>							      
+		</TableRow>
+
+    <!--  US Section -->
+    
+    <!--  
+	<TableRow>
+	
+		<TableLayout												
+	    	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+			
+			<TextView android:height="1sp"
+			  android:background="#646D7E"
+			  android:layout_span="2"/>
+			  
+			<TableRow 
+				android:background="@drawable/gradient"
+				android:id="@+id/click_us_indices"
+				android:clickable="true">
+				
+			<ImageView 
+			android:id="@+id/arrow_us_indices"
+			android:layout_gravity="left"
+			android:paddingRight="10sp"
+			android:paddingLeft="10sp"/>
+			
+			
+			<TextView 
+				android:text="US Indices"
+				android:textSize="16sp"
+				android:height="26sp"
+				android:textStyle="bold"
+				android:layout_gravity="left"
+				android:textColor="#ffffff"/>
+			
+			
+			
+			</TableRow>
+			
+			<TableRow android:id="@+id/expandable_us_indices">
+			
+			<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:stretchColumns="*"
+				android:shrinkColumns="*"
+				android:layout_span="2">
+			<TableRow>
+			<TextView 
+				android:text="Dow Jones"
+				android:textSize="20sp"
+				android:textColor="#ffffff"
+				android:textStyle="bold"/>
+			</TableRow>
+			<TableRow>	
+				<TextView
+					android:text="Dow Jones Composite Average"
+					android:textColor="#ffffff"
+					android:textStyle="normal"
+					android:textSize="18sp"
+					android:paddingLeft="20sp"
+					android:paddingTop="10sp"/>
+				<ImageView 
+					android:layout_gravity="right"
+					android:src="@drawable/alert_image"/>
+			</TableRow>
+			<TableRow>	
+				<TextView
+					android:text="Dow Jones Industrial Average"
+					android:textColor="#ffffff"
+					android:textStyle="normal"
+					android:textSize="18sp"
+					android:paddingLeft="20sp"
+					android:paddingTop="10sp"/>
+				<ImageView 
+					android:layout_gravity="right"
+					android:src="@drawable/alert_image"/>
+			</TableRow>
+			<TableRow>	
+				<TextView
+					android:text="Dow Jones Transportation Average"
+					android:textColor="#ffffff"
+					android:textStyle="normal"
+					android:textSize="18sp"
+					android:paddingLeft="20sp"
+					android:paddingTop="10sp"/>
+				<ImageView 
+					android:layout_gravity="right"
+					android:src="@drawable/alert_image"/>
+			</TableRow>
+			<TableRow>	
+				<TextView
+					android:text="Dow Jones Utility Average"
+					android:textColor="#ffffff"
+					android:textStyle="normal"
+					android:textSize="18sp"
+					android:paddingLeft="20sp"
+					android:paddingTop="10sp"/>
+				<ImageView 
+					android:layout_gravity="right"
+					android:src="@drawable/alert_image"/>
+			</TableRow>
+			
+			</TableLayout>
+					
+			</TableRow>
+			
+			<TextView android:height="5sp"/>
+		</TableLayout>  
+</TableRow>
+
+-->
+
+
+<!--  Americas Section -->
+
+<!--  
+    
+	<TableRow>
+	
+		<TableLayout												
+	    	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+			
+			<TextView android:height="1sp"
+			  android:background="#646D7E"
+			  android:layout_span="2"/>
+			  
+			<TableRow 
+				android:background="@drawable/gradient"
+				android:id="@+id/click_americas_indices"
+				android:clickable="true">
+				
+			<ImageView 
+			android:id="@+id/arrow_americas_indices"
+			android:layout_gravity="left"
+			android:paddingRight="10sp"
+			android:paddingLeft="10sp"/>
+			
+			
+			<TextView 
+				android:text="Americas"
+				android:textSize="16sp"
+				android:height="26sp"
+				android:textStyle="bold"
+				android:layout_gravity="left"
+				android:textColor="#ffffff"/>		
+			</TableRow>
+			
+			<TableRow android:id="@+id/expandable_americas_indices">
+			
+			<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:stretchColumns="*"
+				android:shrinkColumns="*"
+				android:layout_span="2">
+
+				<TableRow>	
+					<TextView
+						android:text="Index Name"
+						android:textColor="#ffffff"
+						android:textStyle="normal"
+						android:textSize="18sp"
+						android:paddingLeft="20sp"
+						android:paddingTop="10sp"/>
+					<ImageView 
+						android:layout_gravity="right"
+						android:src="@drawable/alert_image"/>
+				</TableRow>
+			</TableLayout>
+					
+			</TableRow>
+			
+			<TextView android:height="5sp"/>
+		</TableLayout>  
+</TableRow>
+
+-->
+
+<!--  Asia/Pacific Section -->
+<!--      
+	<TableRow>
+	
+		<TableLayout												
+	    	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+			
+			<TextView android:height="1sp"
+			  android:background="#646D7E"
+			  android:layout_span="2"/>
+			  
+			<TableRow 
+				android:background="@drawable/gradient"
+				android:id="@+id/click_asia_indices"
+				android:clickable="true">
+				
+			<ImageView 
+			android:id="@+id/arrow_asia_indices"
+			android:layout_gravity="left"
+			android:paddingRight="10sp"
+			android:paddingLeft="10sp"/>
+			
+			
+			<TextView 
+				android:text="Asia / Pacific"
+				android:textSize="16sp"
+				android:height="26sp"
+				android:textStyle="bold"
+				android:layout_gravity="left"
+				android:textColor="#ffffff"/>		
+			</TableRow>
+			
+			<TableRow android:id="@+id/expandable_asia_indices">
+			
+			<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:stretchColumns="*"
+				android:shrinkColumns="*"
+				android:layout_span="2">
+
+				<TableRow>	
+					<TextView
+						android:text="Index Name"
+						android:textColor="#ffffff"
+						android:textStyle="normal"
+						android:textSize="18sp"
+						android:paddingLeft="20sp"
+						android:paddingTop="10sp"/>
+					<ImageView 
+						android:layout_gravity="right"
+						android:src="@drawable/alert_image"/>
+				</TableRow>
+			</TableLayout>
+					
+			</TableRow>
+			
+			<TextView android:height="5sp"/>
+		</TableLayout>  
+</TableRow>
+
+-->
+<!--  Europe Section -->
+<!--  
+	<TableRow>
+	
+		<TableLayout												
+	    	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+			
+			<TextView android:height="1sp"
+			  android:background="#646D7E"
+			  android:layout_span="2"/>
+			  
+			<TableRow 
+				android:background="@drawable/gradient"
+				android:id="@+id/click_europe_indices"
+				android:clickable="true">
+				
+			<ImageView 
+			android:id="@+id/arrow_europe_indices"
+			android:layout_gravity="left"
+			android:paddingRight="10sp"
+			android:paddingLeft="10sp"/>
+			
+			
+			<TextView 
+				android:text="Europe"
+				android:textSize="16sp"
+				android:height="26sp"
+				android:textStyle="bold"
+				android:layout_gravity="left"
+				android:textColor="#ffffff"/>		
+			</TableRow>
+			
+			<TableRow android:id="@+id/expandable_europe_indices">
+			
+			<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:stretchColumns="*"
+				android:shrinkColumns="*"
+				android:layout_span="2">
+
+				<TableRow>	
+					<TextView
+						android:text="Index Name"
+						android:textColor="#ffffff"
+						android:textStyle="normal"
+						android:textSize="18sp"
+						android:paddingLeft="20sp"
+						android:paddingTop="10sp"/>
+					<ImageView 
+						android:layout_gravity="right"
+						android:src="@drawable/alert_image"/>
+				</TableRow>
+			</TableLayout>
+					
+			</TableRow>
+			
+			<TextView android:height="5sp"/>
+		</TableLayout>  
+</TableRow>
+-->
+
+<!--  Africa / Middle East Section -->
+<!--  
+	<TableRow>
+	
+		<TableLayout												
+	    	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+			
+			<TextView android:height="1sp"
+			  android:background="#646D7E"
+			  android:layout_span="2"/>
+			  
+			<TableRow 
+				android:background="@drawable/gradient"
+				android:id="@+id/click_africa_indices"
+				android:clickable="true">
+				
+			<ImageView 
+			android:id="@+id/arrow_africa_indices"
+			android:layout_gravity="left"
+			android:paddingRight="10sp"
+			android:paddingLeft="10sp"/>
+			
+			
+			<TextView 
+				android:text="Africa / Middle East"
+				android:textSize="16sp"
+				android:height="26sp"
+				android:textStyle="bold"
+				android:layout_gravity="left"
+				android:textColor="#ffffff"/>		
+			</TableRow>
+			
+			<TableRow android:id="@+id/expandable_africa_indices">
+			
+			<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:stretchColumns="*"
+				android:shrinkColumns="*"
+				android:layout_span="2">
+
+				<TableRow>	
+					<TextView
+						android:text="Index Name"
+						android:textColor="#ffffff"
+						android:textStyle="normal"
+						android:textSize="18sp"
+						android:paddingLeft="20sp"
+						android:paddingTop="10sp"/>
+					<ImageView 
+						android:layout_gravity="right"
+						android:src="@drawable/alert_image"/>
+				</TableRow>
+			</TableLayout>
+					
+			</TableRow>
+			
+			<TextView android:height="5sp"/>
+		</TableLayout>  
+</TableRow>
+-->
+
+
+
+
+</TableLayout>
+</ScrollView>

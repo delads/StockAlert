@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/stockalert/!svn/ver/3/StockAlert
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/stockalert/!svn/ver/2/StockAlert/default.properties
+END
+StockAlert_promo.png
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/stockalert/!svn/ver/2/StockAlert/StockAlert_promo.png
+END
+StockAlertHiRes.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/stockalert/!svn/ver/2/StockAlert/StockAlertHiRes.png
+END
+StockAlertHiRes.xcf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/stockalert/!svn/ver/2/StockAlert/StockAlertHiRes.xcf
+END
+StockAlertHiRes_promo.xcf
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/stockalert/!svn/ver/2/StockAlert/StockAlertHiRes_promo.xcf
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/stockalert/!svn/ver/3/StockAlert/AndroidManifest.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/stockalert/!svn/ver/3/StockAlert/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/stockalert/!svn/ver/2/StockAlert/.project
+END
+StockAlertHiRes.psd
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/stockalert/!svn/ver/2/StockAlert/StockAlertHiRes.psd
+END
+commodities_test.csv
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/stockalert/!svn/ver/2/StockAlert/commodities_test.csv
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/stockalert/!svn/ver/3/StockAlert/.classpath
+END

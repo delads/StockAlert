@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stock Alert</string>   
+    <string name="currency_prompt">Choose Stock</string> 
+    <string name="status_bar_refresh_message">Refreshing Stock Rates</string> 
+    <string name="end_user_agreement_title">End User Agreement</string>
+    <string name="dialog_alert_not_saved_title">Alert Not Saved</string>
+    <string name="add_commodity_to_portfolio_title">Commodity Added to Portfolio</string>
+    <string name="add_index_to_portfolio_title">Index Added to Portfolio</string>
+    <string name="add_currency_to_portfolio_title">Currency Added to Portfolio</string>
+    <string name="add_to_portfolio_message">Set Price Alerts on the "Alerts" tab</string>
+    <string name="reorder_stock_title">Reorder Stock List</string>
+    <string name="reorder_stock_message">Drag and drop stocks using the above image located left of the Stock Name</string>
+    <string name="dialog_high_alert_not_saved_message">Alert needs to be higher than current price</string>
+    <string name="dialog_low_alert_not_saved_message">Alert needs to be lower than current price</string>
+    <string name="dialog_stock_still_updating_title">Stock Still Updating</string>
+    <string name="dialog_stock_still_updating_message">Cannot save alert until stock completes update. Please try again shortly.</string>
+    <string name="dialog_alert_ok">OK</string>
+    <string name="widget_name">Stock Alert</string>
+    <string name="choose_index_prompt">Choose Index</string>
+    <string name="choose_currency_prompt">Choose Currency</string>
+    <color name="dragndrop_background">#e0103010</color>
+    <string name="default_page_prompt">Choose Default Start Page</string> 
+    <string name="default_timeframe_prompt">Choose Default Graph Timeframe</string> 
+    <string name="default_location_prompt">Choose Location for Daily Deals</string> 
+    <string name="end_user_agreement_text">
+    
+    
+    
+    
+    
+By downloading, installing or using this application you agree to the terms and conditions located at http://www.pocketools.com/eula (also found by clicking the EULA button below).
+
+</string>
+       
+</resources>

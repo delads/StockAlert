@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="fill_parent"
+    			android:layout_width="fill_parent"
+    			android:background="#000000">
+    			
+    			
+	<TableLayout
+		    android:stretchColumns="0,2"
+    		android:shrinkColumns="*"
+    		android:layout_height="fill_parent"
+    		android:layout_width="wrap_content"
+    		android:background="#000000"
+    		android:layout_margin="0sp">
+    				   						
+    	<TableRow>
+			<TableLayout  
+						android:layout_span="3" 
+						android:layout_width="fill_parent"
+						android:stretchColumns="1">					
+				<TableRow
+						android:background="#000000">
+
+					<TextView android:width="30sp"/>
+													
+			    	<TextView android:height="50sp"
+			    			android:text="Settings"
+			    			android:textSize="20sp"
+			    			android:textStyle="bold"
+			    			android:gravity="center"
+			    			android:textColor="#FFFFFF"/>
+			    	
+			    	<TextView android:width="30sp"/>
+			      
+		 	   </TableRow>
+		 	 </TableLayout>
+		 </TableRow>
+		 
+		 <!--  
+		 <TextView android:height="1sp" android:paddingTop="5sp" android:background="#646D7E"/>
+			
+			<TextView android:height="10sp"/>
+			
+			<TableRow android:id="@+id/settings_widget_row" layout_span="3">
+				<TextView android:text="Widget Settings"
+						android:textColor="#ffffff"
+						android:paddingLeft="15sp"
+						android:textSize="20sp"/>
+				<ImageView android:src="@drawable/settings_edit" android:layout_gravity="right"/>
+			</TableRow>
+			
+			
+						
+			<TextView android:height="10sp"/>
+			<TextView android:height="1sp" android:paddingTop="5sp" android:background="#646D7E"/>
+			<TextView android:height="10sp"/>
+		-->
+			
+			
+		 
+		 <TableRow>
+		 
+		 <TableLayout
+								android:shrinkColumns="3"
+								android:layout_span="3" 
+								android:stretchColumns="0,2"
+								android:layout_margin="0sp"
+								android:padding="20sp"
+								>
+				<TableRow>	
+									  
+						<Spinner  
+								  android:id="@+id/default_page_spinner" 
+							      android:prompt="@string/default_page_prompt"
+							      android:layout_width="wrap_content"
+							      />							      
+				</TableRow>
+		  
+				<TableRow>
+				
+					<Button android:id="@+id/set_default_page_button"
+							android:text="Set Default Start Page"
+							android:layout_gravity="center"/>
+				</TableRow>
+								  
+			</TableLayout>			
+			</TableRow>
+
+
+			
+
+			
+			
+			<TableRow>	 
+		 		<TableLayout
+					android:shrinkColumns="3"
+					android:layout_span="3" 
+					android:stretchColumns="0,2"
+					android:layout_margin="0sp"
+					android:padding="20sp">
+				<TableRow>	
+									  
+					<Spinner  
+					  android:id="@+id/default_timeframe_spinner" 
+				      android:prompt="@string/default_timeframe_prompt"
+				      android:layout_width="wrap_content"/>							      
+				</TableRow>		  
+				<TableRow>				
+					<Button android:id="@+id/set_default_timeframe_button"
+							android:text="Set Default Graph Timeframe"
+							android:layout_gravity="center"/>
+				</TableRow>								  
+			</TableLayout>			
+			</TableRow>
+			
+			
+			
+			<TableRow>	 
+		 		<TableLayout
+					android:shrinkColumns="3"
+					android:layout_span="3" 
+					android:stretchColumns="0,2"
+					android:layout_margin="0sp"
+					android:padding="20sp">
+				<TableRow>	
+									  
+					<Spinner  
+					  android:id="@+id/default_location_spinner" 
+				      android:prompt="@string/default_location_prompt"
+				      android:layout_width="wrap_content"/>							      
+				</TableRow>		  
+				<TableRow>				
+					<Button android:id="@+id/set_default_location_button"
+							android:text="Set Default Location for Daily Deals"
+							android:layout_gravity="left"/>
+							
+				   
+				</TableRow>	
+				<TableRow>
+				 <Button android:id="@+id/set_default_location_button_current"
+							android:text="Use Current Location"/>
+				</TableRow>							  
+			</TableLayout>			
+			</TableRow>
+			
+			
+		
+  																
+	</TableLayout>
+
+</LinearLayout>
+	

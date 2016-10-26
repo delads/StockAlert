@@ -1,0 +1,36 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent"
+                android:shrinkColumns="0"
+                android:stretchColumns="1">
+   <TableRow
+   		android:background="#181818"
+   		android:padding="5sp"> 
+   
+   <ImageButton 
+			android:src="@drawable/settings_edit"
+			android:layout_gravity="center_vertical"
+			android:paddingLeft="5sp"
+			android:scaleType="centerInside"
+			android:background="@null"/> 	
+			 	       
+   <TextView
+   			android:textSize="22sp"
+   			android:textColor="#FFFFFF"
+   			android:height="40sp"
+   			android:text="Chart Timeframe"
+   			android:background="#181818"
+   			android:layout_gravity="center"
+   			android:paddingRight="50sp"/>
+   </TableRow>
+                
+   <TableRow android:layout_weight="1">
+	 
+	<ListView android:id="@android:id/list" 
+			  android:layout_width="fill_parent" 
+              android:layout_height="fill_parent" 
+              android:layout_weight="1" 
+              android:drawSelectorOnTop="false"/>  
+              
+    </TableRow>
+</TableLayout>

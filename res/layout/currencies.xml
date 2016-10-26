@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		 android:orientation="vertical">
+		
+		
+		<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/top_text_view"
+			android:layout_alignParentBottom="true">
+
+		<!--  
+		<TableRow >
+		    <com.google.ads.GoogleAdView
+		        android:id="@+id/adview_currency_page"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="#000000"/>
+        
+        </TableRow>
+        -->
+	
+		</TableLayout>
+
+		
+		<ScrollView 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none"
+		android:background="#000000"
+		android:layout_weight="1"
+		android:layout_above="@id/top_text_view">	
+
+
+		
+<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:stretchColumns="*"
+		android:shrinkColumns="*">
+<TableRow>
+
+
+</TableRow>
+	<Gallery
+		    android:id="@+id/gallery_currencies"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/gradient_tab"/>
+
+<TableRow>
+
+    <!-- First Section -->
+    <TableLayout												
+    	android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:stretchColumns="*"
+		android:shrinkColumns="*"
+		android:paddingLeft="5sp"
+		android:paddingRight="5sp">
+	
+	<TableRow>
+		
+		
+		<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_span="3"
+			android:stretchColumns="0,2"
+			android:shrinkColumns="*">
+			<TableRow>	
+		
+		<TableLayout android:background="#000000"
+								android:shrinkColumns="*"
+								android:stretchColumns="*"
+								android:layout_margin="5sp">
+				<TableRow>		
+					<TableLayout android:layout_margin="10sp">
+						
+
+						<TableRow>					  
+						<Spinner  
+								  android:id="@+id/currency_spinner_left" 
+							      android:prompt="@string/currency_prompt"
+							      android:layout_width="wrap_content"/>							      
+						</TableRow>
+						
+						
+					</TableLayout>	
+				</TableRow>
+			</TableLayout>
+
+				<!--  
+				<TextView android:text="="
+						  android:textSize="50sp"
+						  android:textStyle="bold"
+						  android:gravity="center"
+						  android:textColor="#ffffff"
+						  android:layout_margin="0sp"/>
+				-->
+				
+				<ImageButton android:src="@drawable/refresh_small"
+				android:layout_gravity="center_vertical"
+				android:background="@null"
+				android:id="@+id/button_swap_currency"/>
+				
+
+	
+			<TableLayout android:background="#000000"
+								android:shrinkColumns="*"
+								android:stretchColumns="*"
+								android:layout_margin="5sp">
+				<TableRow>
+					<TableLayout android:layout_margin="10sp">
+						
+						<TableRow>
+						<Spinner  
+								  android:id="@+id/currency_spinner_right"
+							      android:prompt="@string/currency_prompt"
+							      android:layout_width="wrap_content"/>						
+						</TableRow>
+						
+									
+					</TableLayout>	
+				</TableRow>
+			</TableLayout>
+		</TableRow>
+	</TableLayout>
+		
+		
+		
+										      
+	</TableRow>
+
+	<TableRow>
+	
+		<!-- High level company info table inside the first TD -->
+		<TableLayout android:background="#000000">
+			
+			<TableRow>
+				<TextView
+					android:id="@+id/stock_detail_company_name"
+					android:textSize="18sp"
+					android:textStyle="normal"
+					android:text="Google Inc"	
+					android:paddingRight="10sp"			
+					android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow>
+				<TextView
+					android:id="@+id/stock_detail_price"
+					android:textSize="30sp"
+					android:textStyle="bold"
+					android:text="533.470"
+					android:paddingRight="40sp"
+					android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow>				
+				<TextView
+					android:id="@+id/stock_detail_change"
+					android:textSize="14sp"
+					android:textStyle="normal"
+					android:text="2.18  0.41%"
+					android:textColor="#00FF00"/>					
+			</TableRow>
+		
+		</TableLayout>	
+		
+		<!--  Daily stock info - Top right -->
+		<TableLayout android:background="#000000"
+		android:stretchColumns="*">
+			<TableRow>
+				<TextView
+					android:textSize="14sp"
+					android:textStyle="normal"
+					android:text="High"
+					android:textColor="#ffffff"/>
+				<TextView
+					android:id="@+id/stock_detail_daily_high"
+					android:textSize="14sp"
+					android:textStyle="normal"
+					android:text="542.00"
+					android:paddingLeft="5sp"
+					android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow>
+				<TextView
+					android:textSize="14sp"
+					android:textStyle="normal"
+					android:text="Low"
+					android:textColor="#ffffff"/>
+				<TextView
+					android:id="@+id/stock_detail_daily_low"
+					android:textSize="14sp"
+					android:textStyle="normal"
+					android:text="531.53"
+					android:paddingLeft="5sp"
+					android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow>				
+				<TextView
+					android:textSize="14sp"
+					android:textStyle="normal"
+					android:text="Volume"
+					android:textColor="#ffffff"/>
+				<TextView
+					android:id="@+id/stock_detail_volume"
+					android:textSize="14sp"
+					android:textStyle="normal"
+					android:text="2,620,639"
+					android:paddingLeft="5sp"
+					android:textColor="#ffffff"/>			
+			</TableRow>
+			<TableRow>				
+				<TextView
+					android:textSize="14sp"
+					android:textStyle="normal"
+					android:text="Time"
+					android:textColor="#ffffff"/>
+				<TextView
+					android:id="@+id/stock_detail_last_trade_time"
+					android:textSize="14sp"
+					android:textStyle="normal"
+					android:text="16:56"
+					android:paddingLeft="5sp"
+					android:textColor="#ffffff"/>			
+			</TableRow>		
+		</TableLayout>		
+		     
+   
+   </TableRow>
+   </TableLayout>
+ 
+   
+   
+	
+
+	</TableRow>
+		<!--  End of company Info Section -->
+		
+	<!--  Graphs Section -->
+	<TableRow>
+	
+		<TableLayout												
+	    	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="*"
+			android:shrinkColumns="*">
+
+			
+			<TextView android:height="15sp"/>
+			<TableRow android:id="@+id/currencies_graph_timeframe" android:clickable="true">
+					
+					<TextView android:text="Zoom"
+							  android:textColor="#ffffff"
+							  android:paddingLeft="10sp"
+							  android:paddingRight="10sp"/>
+					
+					<TextView android:text="1d"
+							  android:textColor="#ffffff"
+							  android:id="@+id/currencies_timeframe_1d"
+							  android:paddingLeft="10sp"
+							  android:paddingRight="10sp"/>
+					<TextView android:text="5d"
+							  android:textColor="#ffffff"
+							  android:id="@+id/currencies_timeframe_5d"
+						      android:paddingLeft="10sp"
+							  android:paddingRight="10sp"/>
+							  
+					<TextView android:text="3m"
+							  android:textColor="#ffffff"
+						      android:id="@+id/currencies_timeframe_3m"
+							  android:paddingLeft="10sp"
+							  android:paddingRight="10sp"/>
+				   
+				   <TextView android:text="1y"
+							  android:textColor="#ffffff"
+						      android:id="@+id/currencies_timeframe_1y"
+							  android:paddingLeft="10sp"
+							  android:paddingRight="10sp"/>
+							  
+					<TextView android:text="2y"
+							  android:textColor="#ffffff"
+							  android:id="@+id/currencies_timeframe_2y"
+							  android:paddingLeft="10sp"
+							  android:paddingRight="10sp"/>
+							  
+					<TextView android:text="5y"
+							  android:textColor="#ffffff"
+							  android:id="@+id/currencies_timeframe_5y"
+							  android:paddingLeft="10sp"
+							  android:paddingRight="10sp"/>
+				</TableRow>
+				<TableRow android:id="@+id/graph_animation">
+					<TableLayout
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_span="8"
+						android:stretchColumns="0,2">
+						<TableRow>
+						<TextView android:layout_height="175sp"/>
+						<ImageView
+							android:id="@+id/graph_loading"
+							android:layout_gravity="center_vertical"/>
+						<TextView/>
+						</TableRow>
+					</TableLayout>
+				</TableRow>
+	
+				<ImageButton
+		        android:id="@+id/graph_small"
+		        android:scaleType="centerInside"
+		        android:paddingRight="5sp"
+		        android:paddingLeft="10sp"
+		        android:adjustViewBounds="true"
+		        android:background="@null"	        
+				android:layout_span="8"/>	
+			
+			
+			<TextView android:height="5sp"/>
+		</TableLayout>
+		
+	</TableRow>
+	<!--  End of Graphs Section  -->
+	
+	
+
+	
+    <!--  Company News Section -->
+    
+	<TableRow>
+	
+		<TableLayout												
+	    	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+			
+			<TextView android:height="1sp"
+			  android:background="#646D7E"
+			  android:layout_span="2"/>
+			  
+			<TableRow 
+				android:background="@drawable/gradient"
+				android:id="@+id/click_company_news"
+				android:clickable="true">
+				
+			<ImageView 
+			android:id="@+id/arrow_company_news"
+			android:layout_gravity="left"
+			android:paddingRight="10sp"
+			android:paddingLeft="10sp"/>
+			
+			
+			<TextView 
+				android:text="Currency News"
+				android:textSize="16sp"
+				android:height="26sp"
+				android:textStyle="bold"
+				android:layout_gravity="left"
+				android:textColor="#ffffff"/>
+			
+			
+			
+			</TableRow>
+			
+			<TableRow android:id="@+id/expandable_company_news">
+			
+			<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_span="2"
+				android:id="@+id/company_news_table">
+						<TableRow  android:id="@+id/company_info_animation" android:gravity="center_horizontal">
+						<ImageView
+							android:id="@+id/company_info_loading"
+							android:paddingTop="40sp"/>
+						</TableRow>
+			</TableLayout>
+					
+			</TableRow>
+			
+			<TextView android:height="5sp"/>
+		</TableLayout>  
+</TableRow>
+
+
+
+
+</TableLayout>
+</ScrollView>
+
+
+
+
+
+</RelativeLayout> 

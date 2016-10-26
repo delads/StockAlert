@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		 android:orientation="vertical">
+		
+		
+		<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/top_text_view_commodities"
+			android:layout_alignParentBottom="true">
+
+		<!--  
+		<TableRow >
+		    <com.google.ads.GoogleAdView
+		        android:id="@+id/adview_commodities_page"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="#000000"/>
+        
+        </TableRow>
+        -->
+        
+        
+	
+		</TableLayout>
+		
+<ScrollView 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none"
+		android:background="#000000"
+		android:layout_above="@id/top_text_view_commodities">	
+		
+	<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="*"
+			android:shrinkColumns="*">
+
+		<Gallery
+			    android:id="@+id/gallery_commodities"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/gradient_tab"/>
+
+		
+		<TextView/>
+		
+		<!--  Energy Section -->
+		<TableRow>
+		
+			<TableLayout												
+		    	android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:stretchColumns="1">
+				
+				<TextView android:height="1sp"
+				  android:background="#646D7E"
+				  android:layout_span="2"/>
+				  
+				<TableRow android:background="@drawable/gradient">
+						
+				<TextView 
+					android:text="Energy"
+					android:textSize="16sp"
+					android:height="26sp"
+					android:textStyle="bold"
+					android:layout_gravity="left"
+					android:textColor="#ffffff"/>
+				</TableRow>
+				
+				<TableRow>
+				
+				<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_span="3"
+				android:stretchColumns="*"
+				android:shrinkColumns="*"
+				android:id="@+id/commodity_energy_list">
+						<TextView android:id="@+id/commodity_energy_loading" android:text="Loading ..." android:textColor="#FFFFFF"/>
+				</TableLayout>
+						
+				</TableRow>
+				
+				<TextView android:height="5sp"/>
+			</TableLayout>  
+	</TableRow>
+		
+		<!--  End Energy Section -->
+		
+		
+		
+		
+		<!--  Metals Section -->
+		<TableRow>
+		
+			<TableLayout												
+		    	android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:stretchColumns="1">
+				
+				<TextView android:height="1sp"
+				  android:background="#646D7E"
+				  android:layout_span="2"/>
+				  
+				<TableRow android:background="@drawable/gradient">
+
+				
+				
+				<TextView 
+					android:text="Metals"
+					android:textSize="16sp"
+					android:height="26sp"
+					android:textStyle="bold"
+					android:layout_gravity="left"
+					android:textColor="#ffffff"/>
+				</TableRow>
+				
+				<TableRow>
+				
+				<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_span="2"
+				android:stretchColumns="*"
+				android:shrinkColumns="*"
+				android:id="@+id/commodity_metals_list">
+						<TextView android:id="@+id/commodity_metals_loading" android:text="Loading ..." android:textColor="#FFFFFF"/>
+				</TableLayout>
+						
+				</TableRow>
+				
+				<TextView android:height="5sp"/>
+			</TableLayout>  
+	</TableRow>
+		
+		<!--  End Metals Section -->
+	    
+	
+	
+	
+			<!--  Grains Section -->
+		<TableRow>
+		
+			<TableLayout												
+		    	android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:stretchColumns="1">
+				
+				<TextView android:height="1sp"
+				  android:background="#646D7E"
+				  android:layout_span="2"/>
+				  
+				<TableRow android:background="@drawable/gradient">
+
+				
+				<TextView 
+					android:text="Grains"
+					android:textSize="16sp"
+					android:height="26sp"
+					android:textStyle="bold"
+					android:layout_gravity="left"
+					android:textColor="#ffffff"/>
+				</TableRow>
+				
+				<TableRow>
+				
+				<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_span="2"
+				android:stretchColumns="*"
+				android:shrinkColumns="*"
+				android:id="@+id/commodity_grains_list">
+						<TextView android:id="@+id/commodity_grains_loading" android:text="Loading ..." android:textColor="#FFFFFF"/>
+				</TableLayout>
+						
+				</TableRow>
+				
+				<TextView android:height="5sp"/>
+			</TableLayout>  
+	</TableRow>
+		
+		<!--  End Grains Section -->
+		
+		
+		
+		
+			<!--  Livestock Section -->
+		<TableRow>
+		
+			<TableLayout												
+		    	android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:stretchColumns="1">
+				
+				<TextView android:height="1sp"
+				  android:background="#646D7E"
+				  android:layout_span="2"/>
+				  
+				<TableRow android:background="@drawable/gradient">
+
+				
+				
+				<TextView 
+					android:text="Livestock"
+					android:textSize="16sp"
+					android:height="26sp"
+					android:textStyle="bold"
+					android:layout_gravity="left"
+					android:textColor="#ffffff"/>
+				</TableRow>
+				
+				<TableRow>
+				
+				<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_span="2"
+				android:stretchColumns="*"
+				android:shrinkColumns="*"
+				android:id="@+id/commodity_livestock_list">
+						<TextView android:id="@+id/commodity_livestock_loading" android:text="Loading ..." android:textColor="#FFFFFF"/>
+				</TableLayout>
+						
+				</TableRow>
+				
+				<TextView android:height="5sp"/>
+			</TableLayout>  
+	</TableRow>
+		
+		<!--  End Grains Section -->
+		
+		
+		
+				<!--  Softs Section -->
+		<TableRow>
+		
+			<TableLayout												
+		    	android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:stretchColumns="1">
+				
+				<TextView android:height="1sp"
+				  android:background="#646D7E"
+				  android:layout_span="2"/>
+				  
+				<TableRow android:background="@drawable/gradient">
+					
+				
+				<TextView 
+					android:text="Softs"
+					android:textSize="16sp"
+					android:height="26sp"
+					android:textStyle="bold"
+					android:layout_gravity="left"
+					android:textColor="#ffffff"/>
+				</TableRow>
+				
+				<TableRow>
+				
+				<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_span="2"
+				android:stretchColumns="*"
+				android:shrinkColumns="*"
+				android:id="@+id/commodity_softs_list">
+						<TextView android:id="@+id/commodity_softs_loading" android:text="Loading ..." android:textColor="#FFFFFF"/>
+				</TableLayout>
+						
+				</TableRow>
+				
+				<TextView android:height="5sp"/>
+			</TableLayout>  
+	</TableRow>
+		
+		<!--  End Softs Section -->
+		
+		
+		
+		
+				<!--  Indices Section -->
+		<TableRow>
+		
+			<TableLayout												
+		    	android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:stretchColumns="1">
+				
+				<TextView android:height="1sp"
+				  android:background="#646D7E"
+				  android:layout_span="2"/>
+				  
+				<TableRow android:background="@drawable/gradient">
+				
+				<TextView 
+					android:text="Indices"
+					android:textSize="16sp"
+					android:height="26sp"
+					android:textStyle="bold"
+					android:layout_gravity="left"
+					android:textColor="#ffffff"/>
+				</TableRow>
+				
+				<TableRow>
+				
+				<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_span="2"
+				android:stretchColumns="*"
+				android:shrinkColumns="*"
+				android:id="@+id/commodity_indices_list">
+						<TextView android:id="@+id/commodity_indices_loading" android:text="Loading ..." android:textColor="#FFFFFF"/>
+				</TableLayout>
+						
+				</TableRow>
+				
+				<TextView android:height="5sp"/>
+			</TableLayout>  
+	</TableRow>
+		
+		<!--  End Indices Section -->
+		
+		
+		
+		
+	
+	
+	
+	</TableLayout>
+</ScrollView>
+
+</RelativeLayout> 

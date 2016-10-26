@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:admobsdk="http://schemas.android.com/apk/res/com.pocketools.currency"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none"
+		android:background="#000000">	
+
+    
+    <TableLayout
+    	android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:stretchColumns="1,2,3"
+		android:shrinkColumns="1,3">
+		
+		<!--  
+		<TableRow>
+    	<com.admob.android.ads.AdView  
+    					android:layout_span="5"
+                        android:id="@+id/ad_currency_graph" 
+                        android:layout_width="fill_parent" 
+                        android:layout_height="wrap_content"
+                        admobsdk:backgroundColor="#000000"
+                        admobsdk:textColor="#FFFFFF"
+                        admobsdk:testing="false"
+                        admobsdk:keywords="currency exchange forex finance"/>
+    	</TableRow>
+		-->
+		
+		<TableRow android:background="#000000">
+		
+		<TextView android:width="30sp"/>
+		
+		<Spinner 
+				android:prompt="@string/currency_prompt"
+				android:layout_gravity="center_vertical"
+				android:id="@+id/graph_spinner_left"/>
+				
+		<TextView android:text="Vs"
+				  android:textSize="26sp"
+				  android:paddingLeft="10sp"
+				  android:paddingRight="10sp"
+				  android:layout_gravity="center"
+				  android:textColor="#000000"/>
+		<Spinner 
+				android:prompt="@string/currency_prompt"
+				android:layout_gravity="center_vertical"
+				android:id="@+id/graph_spinner_right"/>
+		
+		<TextView android:width="30sp"/>
+		
+		</TableRow>
+		<TextView android:height="5sp"/>
+		
+		 
+		<TableLayout android:layout_span="3" android:background="#000000">
+		<TableRow android:id="@+id/graph_timeframeRow">
+			<TextView android:text="1d"
+					  android:textColor="#ffffff"
+					  android:id="@+id/graph_timeframe_1d"
+					  android:paddingLeft="30sp"
+					  android:paddingRight="10sp"/>
+			<TextView android:text="5d"
+					  android:textColor="#ffffff"
+					  android:id="@+id/graph_timeframe_5d"
+				      android:paddingLeft="10sp"
+					  android:paddingRight="10sp"/>
+					  
+			<TextView android:text="3m"
+					  android:textColor="#ffffff"
+				      android:id="@+id/graph_timeframe_3m"
+					  android:paddingLeft="10sp"
+					  android:paddingRight="10sp"/>
+		   
+		   <TextView android:text="1y"
+					  android:textColor="#ffffff"
+				      android:id="@+id/graph_timeframe_1y"
+					  android:paddingLeft="10sp"
+					  android:paddingRight="10sp"/>
+					  
+			<TextView android:text="2y"
+					  android:textColor="#ffffff"
+					  android:id="@+id/graph_timeframe_2y"
+					  android:paddingLeft="10sp"
+					  android:paddingRight="10sp"/>
+					  
+			<TextView android:text="5y"
+					  android:textColor="#ffffff"
+					  android:id="@+id/graph_timeframe_5y"
+					  android:paddingLeft="10sp"
+					  android:paddingRight="10sp"/>
+		</TableRow>
+		</TableLayout>
+		
+		
+		  
+		
+	    <ImageButton 
+	        android:id="@+id/graphButton"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="#000000"
+	        android:scaleType="fitXY"
+	    />
+	    
+	   
+	    
+	     
+	   <!--   
+	    <Gallery
+		    android:id="@+id/graph_gallery"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+		-->
+    	
+    </TableLayout>
+
+</LinearLayout>

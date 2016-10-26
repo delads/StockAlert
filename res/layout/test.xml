@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#000000">
+	
+			<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:stretchColumns="*"
+			android:shrinkColumns="*">		
+			
+			
+		  
+			<TableRow
+				android:id="@+id/info_follow_me"
+				android:clickable="true">
+				
+				
+				
+				<TableLayout
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:background="#c0c0c0">
+
+			   	<ImageView android:src="@drawable/arrow_down"
+			   			android:layout_gravity="right"/>
+			   			
+		  		</TableLayout>	
+		  		
+		  		
+				<TableLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:stretchColumns="*"
+					android:shrinkColumns="*">
+			   	<TextView
+			   		android:text="KCU10.NYB"
+			   		android:textSize="22sp"
+			   		android:textColor="#ffffff"
+			   		android:paddingLeft="5sp"/>
+			   		<TextView
+			   		android:text="Coffee Sept 22"
+			   		android:textSize="16sp"
+			   		android:textColor="#ffffff"
+			   		android:paddingLeft="5sp"/>
+
+
+		  		</TableLayout>	
+		  		
+		  		<TableLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:stretchColumns="*"
+					android:shrinkColumns="*">
+
+			   	<TextView
+			   		android:text="166.7"
+			   		android:textColor="#c0c0c0"
+			   		android:textSize="16sp"
+			   		android:paddingLeft="15sp"/>
+			   		
+			   	<TextView
+			   		android:text="+3.56% "
+			   		android:textColor="#c0c0c0"
+			   		android:textSize="16sp"
+			   		android:paddingLeft="15sp"/>
+
+		  		</TableLayout>
+		  		
+		  		
+		  				   				  
+		  	</TableRow>		  	
+		  	</TableLayout>
+ 
+    
+
+</LinearLayout>

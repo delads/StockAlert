@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:admobsdk="http://schemas.android.com/apk/res/com.pocketools.currency"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none"
+		android:background="#000000">	
+
+    
+    <TableLayout
+    	android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:stretchColumns="*"
+		android:shrinkColumns="*"
+		android:padding="5sp"
+		android:background="#000000">
+		
+		
+		<TableRow>
+			<TextView android:height="5sp"/>
+		</TableRow>
+		
+		<TableRow>
+			<EditText 
+				android:id="@+id/add_stock_search"
+				android:hint="Search company or ticker "
+			/>
+			<ImageButton 
+				android:id="@+id/add_stock_search_image"
+				android:src="@drawable/ic_btn_search"
+				android:paddingLeft="5sp"
+				android:paddingRight="10sp"/>
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+				android:padding="2sp"
+				android:height="1sp"
+				android:background="#646D7E"
+				android:layout_span="2"/>
+		</TableRow>
+		
+		<TextView
+				android:text="Can't find your ticker?   Add it directly"
+				android:textColor="#ffffff"
+				android:textSize="14sp"
+				android:paddingTop="5sp"
+				android:paddingBottom="5sp"/>	
+
+		<TableRow>					
+		<EditText 
+			android:id="@+id/add_stock_symbol_directly"
+			android:hint="ticker   "/>
+		<Button android:text="Add"
+			android:id="@+id/add_stock_directly_button"/>
+		</TableRow>
+			
+		<TableRow>
+			<TextView 
+				android:padding="2sp"
+				android:height="1sp"
+				android:background="#646D7E"
+				android:layout_span="2"/>
+		</TableRow>
+		
+
+		
+		<!--  Start of Results section -->
+	
+		<!--  End of Results section -->
+		
+		
+		<ListView android:id="@android:id/list" 
+		  android:layout_width="fill_parent" 
+             android:layout_height="fill_parent" 
+             android:cacheColorHint="#000000"
+             android:divider="#646D7E"
+             android:dividerHeight="1sp"
+             android:background="#000000"
+             android:layout_weight="1" 
+             android:drawSelectorOnTop="false"/>
+        
+        <TextView 
+        android:id="@+id/add_stock_empty"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:padding="2sp"/>
+		
+    </TableLayout>
+    
+   	
+              
+
+</LinearLayout>

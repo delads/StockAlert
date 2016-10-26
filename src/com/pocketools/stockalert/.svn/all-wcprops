@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert
+END
+CommodityUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/CommodityUtil.java
+END
+Currencies.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/Currencies.java
+END
+Graph.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/Graph.java
+END
+Info.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/Info.java
+END
+StockAlertDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/StockAlertDialog.java
+END
+Deal.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert/Deal.java
+END
+Commodities.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/Commodities.java
+END
+GraphMarket.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/GraphMarket.java
+END
+Utilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/Utilities.java
+END
+StockDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert/StockDetail.java
+END
+TouchInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/TouchInterceptor.java
+END
+StockAlert.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert/StockAlert.java
+END
+AdsPreferencesManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert/AdsPreferencesManager.java
+END
+Widget.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/Widget.java
+END
+Settings.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert/Settings.java
+END
+GraphDuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/GraphDuration.java
+END
+ChooseIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/ChooseIndex.java
+END
+AlertList.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert/AlertList.java
+END
+URLFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert/URLFetcher.java
+END
+StockUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/StockUtil.java
+END
+Markets.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert/Markets.java
+END
+FAQ.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/FAQ.java
+END
+AddStock.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/AddStock.java
+END
+AddCurrency.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/AddCurrency.java
+END
+WidgetConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/WidgetConfiguration.java
+END
+DBAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert/DBAdapter.java
+END

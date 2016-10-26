@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert/service
+END
+WakefulIntentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/service/WakefulIntentService.java
+END
+OnBootReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/service/OnBootReceiver.java
+END
+OnWidgetAlarmReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/service/OnWidgetAlarmReceiver.java
+END
+Alert.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/service/Alert.java
+END
+AppService.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/stockalert/!svn/ver/3/StockAlert/src/com/pocketools/stockalert/service/AppService.java
+END
+WidgetWakefulIntentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/service/WidgetWakefulIntentService.java
+END
+WidgetService.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/service/WidgetService.java
+END
+OnAlarmReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/stockalert/!svn/ver/2/StockAlert/src/com/pocketools/stockalert/service/OnAlarmReceiver.java
+END
